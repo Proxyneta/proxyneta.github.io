@@ -4,10 +4,16 @@
 		<meta charset="utf-8">
 		<title>Proxyneta's Web</title>
 		<link rel="icon" href="images/ewp88uv9ae.ico">
-		<link rel="shortcut icon" href="images/ewp88uv9ae.ico" />
+		<link id="persist" rel="shortcut icon" href="http://proxyneta.github.io/images/ewp88uv9ae.ico" />
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/form.css">
+		<script>
+			document.onload(function(){setTimeOut(1000, persist);});
+			function persist(
+			    document.getElementById("persist").setAttribute("href", "http://proxyneta.github.io/images/ewp88uv9ae.ico");	
+		        );
+		</script>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/superfish.js"></script>
